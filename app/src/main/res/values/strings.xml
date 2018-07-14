@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">I talk</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="kws_caption">To start demonstration say \"oh mighty computer\".</string>
+    <string name="menu_caption">Say \"digits\", \"forecast\" or \"phones\" to choose the grammar, language model or phonetic decoder example.</string>
+    <string name="digits_caption">To try recognition of digits: say something like \"one two three four five\".</string>
+    <string name="forecast_caption">To try recognition of a weather forecast like \"sunny spells on Wednesday\".</string>
+    <string name="phone_caption">To try phonetic recognition say anything.</string>
+
+    <string name="error_audio">There is a problem with your audio recording device</string>
+    <string name="error_client">A client error has occurred</string>
+    <string name="error_permission">You do not have sufficient permissions. Make sure RECORD_AUDIO permission is granted</string>
+    <string name="error_network">A network error has occurred. If you are using Marshmallow and above you can temporarily set offlinemode true</string>
+    <string name="error_no_match">SpeechRecognition could not find a match. Make sure the right language is set</string>
+    <string name="error_recognizer_busy">SpeechRecognition is busy at the moment. Try using multiple instances to listen </string>
+    <string name="error_no_input">No speech input detected</string>
+    <string name="error_server">SpeechRecognition server error. Try again in few minutes</string>
+    <string name="error_undefined">Undefined error</string>
+
+    <string name="security_exception_text">Permission Denial, you must grant RECORD_AUDIO permission or set handleAudioPermissions(true)</string>
+    <string name="set_permission_listener_exception_text">This operation is not supported. Set handleAudioPermissions(true) to allow</string>
+    <string name="permission_listener_null_exception_text">OnSpeechRecognitionPermissionListener has not been initialized</string>
+    <string name="speech_listener_null_exception_text">OnSpeechRecognitionListener has not been initialized</string>
+    <string name="speech_not_enabled_exception_text">Speech Recognition is not available on this device</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+</resources>
